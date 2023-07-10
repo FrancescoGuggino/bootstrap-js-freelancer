@@ -62,12 +62,12 @@ let finalPrice = 0
 
     }
 
-    if(DiscountCodePresent){
+    if(DiscountCodeCheck){
         finalPrice = 0.75 * finalPrice;
     }
 
     finalPrice = finalPrice.toFixed(2);
 
-    document.getElementById("price").innerHTML = "Il prezzo stimato è di: " + finalPrice;
+    document.getElementById("price-result").innerHTML = "Il prezzo stimato è di: " + finalPrice;
 
 }
