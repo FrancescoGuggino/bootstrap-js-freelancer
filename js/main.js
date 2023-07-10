@@ -68,4 +68,4 @@ let finalPrice = 0
 
     document.getElementById("price-result").innerHTML = "Il prezzo stimato è di: " + finalPrice;
 
-});
+})
