@@ -21,10 +21,8 @@ let discountCodes = ["YHDNU32", "JANJC63", "PWKCN25", "SJDPO96", "POCIE24"]
 
 
 //calcolo offerta e sconti
-document.getElementById("submitButton").addEventListener("click", function offer(event)){
-    event.preventDefault()
-
-    console.log(event);
+document.getElementById("submitButton").addEventListener("click", function(){
+    
     
 
     //prendo dati iseriti dall'utente
@@ -70,4 +68,4 @@ let finalPrice = 0
 
     document.getElementById("price-result").innerHTML = "Il prezzo stimato è di: " + finalPrice;
 
-}
+});
