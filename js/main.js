@@ -21,8 +21,8 @@ let discountCodes = ["YHDNU32", "JANJC63", "PWKCN25", "SJDPO96", "POCIE24"]
 
 
 //calcolo offerta e sconti
-document.getElementById("submitButton").addEventListener("click", function(){
-    
+document.getElementById("submitButton").addEventListener("click", function(event){
+    event.preventDefault();
     
 
     //prendo dati iseriti dall'utente
